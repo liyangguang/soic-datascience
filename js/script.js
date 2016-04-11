@@ -1,18 +1,25 @@
 (function(){
 	$(document).ready(function() {
 
+		// event listener for navigation related links
 		$(".js-crumb, .js-content, .navlist").on("click", "a", function(event) {
 			if ($(this).attr('data-link')) {
 				openPage($(this).attr('data-link'), $(this).html(), $(this).attr('data-nav'));
 			}
 		});
 
+		// event listener for expand course list
+		$('.js-content').on('click', '.expand-button', function(event) {
+			$(this).next('ul').removeClass('hide');
+			$(this).remove();
+		});
+
+		// load the first page
 		$(".navitem:eq(0)>a").click();
 
-		$.ajaxSetup ({
-		    // Disable caching of AJAX responses
-		    cache: false
-		});
+		// Disable caching of AJAX responses
+		$.ajaxSetup ({ cache: false });
+
 	});
 
 	function openPage(linkName, title, superNav){

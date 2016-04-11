@@ -18,6 +18,9 @@ li{
 .full-width{
 	width: 100%;
 }
+.hide{
+	display: none !important;
+}
 
 /* ------------------- header --------------------- */
 .iu-bar{
@@ -125,6 +128,14 @@ nav{
 	color: #FFF;
 	font-size: 20px;
 	padding: 15px;
+	border: none;
+	margin-bottom: 20px;
+}
+.action-button{
+	background: $iu-red;
+	color: #FFF;
+	font-size: 20px;
+	padding: 5px 10px;
 	border: none;
 	margin-bottom: 20px;
 }
