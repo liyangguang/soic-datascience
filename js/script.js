@@ -2,7 +2,9 @@
 	$(document).ready(function() {
 
 		$(".js-crumb, .js-content, .navlist").on("click", "a", function(event) {
-			openPage($(this).attr('data-link'), $(this).html(), $(this).attr('data-nav'));
+			if ($(this).attr('data-link')) {
+				openPage($(this).attr('data-link'), $(this).html(), $(this).attr('data-nav'));
+			}
 		});
 
 		$(".navitem:eq(0)>a").click();
