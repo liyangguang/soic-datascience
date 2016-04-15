@@ -115,22 +115,24 @@ nav {
   margin-bottom: 10px;
   border: 1px solid #aaa; }
 
-.apply-button {
+.button-sidebar {
   width: 100%;
-  background: #990000;
   color: #FFF;
   font-size: 20px;
-  padding: 15px;
   border: none;
-  margin-bottom: 20px; }
+  margin-bottom: 10px; }
 
-.action-button {
-  background: #990000;
+.button-content {
   color: #FFF;
-  font-size: 20px;
-  padding: 5px 10px;
-  border: none;
-  margin-bottom: 20px; }
+  border: none; }
+
+.button-primary {
+  padding: 15px;
+  background: #990000; }
+
+.button-secondary {
+  padding: 8px;
+  background: #428ba2; }
 
 .profile {
   width: 180px; }
@@ -138,8 +140,7 @@ nav {
 .title {
   margin: 5px 5px 10px;
   font-size: 24px;
-  font-weight: 700;
-  cursor: pointer; }
+  font-weight: 700; }
 
 .card-link {
   color: inherit;
@@ -203,8 +204,18 @@ footer {
   font-weight: 300;
   line-height: 1.5em; }
 
-.degree-name {
-  cursor: pointer; }
+.content-li {
+  margin-left: 2em;
+  font-weight: 500;
+  list-style: initial; }
+
+.content-expand {
+  cursor: pointer;
+  font-size: 18px; }
+
+.student-card {
+  display: inline-block;
+  margin: 20px; }
 
 .table {
   background: #FFF; }
@@ -222,16 +233,40 @@ td, th {
   font-weight: 300; }
 
 /* ------------------ talk page -------------- */
-.talk-wrap {
-  padding: 20px;
-  background: #FFF; }
+.talk-basic {
+  font-size: 16px;
+  margin: 10px 0 20px; }
 
-.talk-pic {
-  float: left;
-  padding-right: 20px; }
+.talk-basic * {
+  font-weight: 800; }
 
 .talk-title {
-  font-size: 24px;
-  font-weight: 800; }
+  margin-top: 5px; }
+
+.talk-button {
+  padding: 3px 10px; }
+
+.talk-speaker {
+  font-size: 14px;
+  color: #777; }
+
+.talk-description {
+  position: relative; }
+
+.showmore {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 20px;
+  background: #fff; }
+
+.hideContent {
+  overflow: hidden;
+  line-height: 1.5em;
+  height: 4.5em; }
+
+.showContent {
+  line-height: 1.5em;
+  height: auto; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,5 @@
 $iu-red: #990000;
+$info-blue: rgb(66, 139, 162);
 
 *{
 	padding: 0;
@@ -41,7 +42,7 @@ li{
 }
 
 header{
-	background-color: rgb(66, 139, 162);
+	background-color: $info-blue;
 	background-image: url(../image/bg.png);
 	color: white;
 }
@@ -122,22 +123,24 @@ nav{
 	margin-bottom: 10px;
 	border: 1px solid #aaa;
 }
-.apply-button{
+.button-sidebar{
 	width: 100%;
-	background: $iu-red;
 	color: #FFF;
 	font-size: 20px;
-	padding: 15px;
 	border: none;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
-.action-button{
-	background: $iu-red;
+.button-content{
 	color: #FFF;
-	font-size: 20px;
-	padding: 5px 10px;
 	border: none;
-	margin-bottom: 20px;
+}
+.button-primary{
+	padding: 15px;
+	background: $iu-red;
+}
+.button-secondary{
+	padding: 8px;
+	background: $info-blue;
 }
 .profile{
 	width: 180px;
@@ -146,7 +149,6 @@ nav{
 	margin: 5px 5px 10px;
 	font-size: 24px;
 	font-weight: 700;
-	cursor: pointer;
 }
 .card-link{
 	color: inherit;
@@ -212,8 +214,18 @@ footer{
 	font-weight: 300;
 	line-height: 1.5em;
 }
-.degree-name{
+.content-li{
+	margin-left: 2em;
+	font-weight: 500;
+	list-style: initial;
+}
+.content-expand{
 	cursor: pointer;
+	font-size: 18px;
+}
+.student-card{
+	display: inline-block;
+	margin: 20px;
 }
 .table{
 	background: #FFF;
@@ -232,16 +244,40 @@ td, th{
 }
 
 /* ------------------ talk page -------------- */
-.talk-wrap{
-	padding: 20px;
-	background: #FFF;
-}
 
-.talk-pic{
-	float: left;
-	padding-right: 20px;
+.talk-basic{
+	font-size: 16px;
+	margin: 10px 0 20px;
+}
+.talk-basic *{
+	font-weight: 800;
 }
 .talk-title{
-	font-size: 24px;
-	font-weight: 800;
+	margin-top: 5px;
+}
+.talk-button{
+	padding: 3px 10px;
+}
+.talk-speaker{
+	font-size: 14px;
+	color: #777;
+}
+.talk-description{
+	position: relative;
+}
+.showmore{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding-right: 20px;
+	background: #fff;
+}
+.hideContent {
+  overflow: hidden;
+  line-height: 1.5em;
+  height: 4.5em;
+}
+.showContent {
+  line-height: 1.5em;
+  height: auto;
 }

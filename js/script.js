@@ -1,15 +1,20 @@
 (function(){
   $(document).ready(function() {
 
-    // event listener for navigation related links
+    // navigation related links
     $("body").on("click", "a[data-link]", function(event) {
       openPage($(this).attr('data-link'), $(this).html(), $(this).attr('data-nav'));
     });
 
-    // event listener for expand course list
+    // expand online curriculum and residential curriculum
     $('.js-content').on('click', '.expand-button', function(event) {
       $(this).next('ul').removeClass('hide');
       $(this).remove();
+    });
+
+    // expand faq
+    $('.js-content').on('click', '.js-content-expand', function(event) {
+      $(this).next('p').toggleClass('hide');
     });
 
     // load the first page
@@ -18,10 +23,16 @@
     // Disable caching of AJAX responses
     $.ajaxSetup ({ cache: false });
 
+    // talks page: expand description
+    $('.js-showmore').on('click', function(event) {
+      $(this).parents(".talk-description").removeClass("hideContent").addClass("showContent");
+      $(this).remove();
+    });
+
   });
 
   function openPage(linkName, title, superNav){
-    var crumb = '<a data-link="program">Data Science</a> > ';
+    var crumb = linkName == 'program' ? '' : '<a data-link="program">Data Science</a> > ';
     crumb += !!superNav ? ('<a data-link="degrees">' + superNav + '</a> > ') : '';
     crumb += title;
     $('.js-crumb').html(crumb);
