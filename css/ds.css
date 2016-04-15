@@ -1,70 +1,4 @@
-* {
-  padding: 0;
-  margin: 0;
-  font-family: Helvetica, sans-serif; }
-
-header *, .iu-name {
-  font-family: "BentonSansCompBold", Arial, Helvetica, sans-serif !important; }
-
-a:hover, a:active, a:focus {
-  text-decoration: none;
-  cursor: pointer; }
-
-li {
-  list-style: none; }
-
-.full-width {
-  width: 100%; }
-
-.hide {
-  display: none !important; }
-
-/* ------------------- header --------------------- */
-.iu-bar {
-  background: #7A1705;
-  border-top: 6px solid #990000;
-  color: white;
-  text-transform: uppercase;
-  font-weight: 300; }
-
-.iu-logo {
-  position: absolute; }
-
-.iu-name {
-  margin: 10px 0 10px 80px;
-  font-size: 18px;
-  letter-spacing: 0.2em;
-  font-weight: 300; }
-
-header {
-  background-color: #428ba2;
-  background-image: url(../image/bg.png);
-  color: white; }
-
-header .container {
-  position: relative; }
-
-.header-h1 {
-  padding: 30px 0 10px;
-  text-transform: uppercase;
-  font-size: 34px; }
-
-.header-h2 {
-  position: absolute;
-  right: 0;
-  bottom: 10px;
-  font-size: 20px; }
-
-.header-social {
-  position: absolute;
-  top: 10px;
-  right: 0;
-  width: 210px; }
-
 /* ------------------- main layout --------------------- */
-body {
-  background: #f6f8f8; }
-
 .wrap {
   display: flex;
   padding: 10px 10px 50px; }
@@ -109,31 +43,6 @@ nav {
   color: #aea79f; }
 
 /* ------------------- sidebar --------------------- */
-.card {
-  padding: 10px;
-  background: #FFF;
-  margin-bottom: 10px;
-  border: 1px solid #aaa; }
-
-.button-sidebar {
-  width: 100%;
-  color: #FFF;
-  font-size: 20px;
-  border: none;
-  margin-bottom: 10px; }
-
-.button-content {
-  color: #FFF;
-  border: none; }
-
-.button-primary {
-  padding: 15px;
-  background: #990000; }
-
-.button-secondary {
-  padding: 8px;
-  background: #428ba2; }
-
 .profile {
   width: 180px; }
 
@@ -155,31 +64,6 @@ nav {
 .info {
   display: block;
   margin: 5px; }
-
-/* ------------------- sidebar --------------------- */
-footer {
-  border-top: 5px solid #990000;
-  background: #fff;
-  padding: 40px 0 10px;
-  color: #990000; }
-
-.footer-logo {
-  display: inline-block;
-  vertical-align: middle; }
-
-.footer-text {
-  display: inline-block; }
-
-.footer-list {
-  float: right; }
-
-.footer-item {
-  display: inline-block;
-  margin-left: 10px; }
-
-.footer-item + .footer-item:before {
-  content: '|';
-  margin-right: 10px; }
 
 /* ------------------- main --------------------- */
 .content {
@@ -231,42 +115,5 @@ td, th {
   margin-left: 20px;
   list-style: initial;
   font-weight: 300; }
-
-/* ------------------ talk page -------------- */
-.talk-basic {
-  font-size: 16px;
-  margin: 10px 0 20px; }
-
-.talk-basic * {
-  font-weight: 800; }
-
-.talk-title {
-  margin-top: 5px; }
-
-.talk-button {
-  padding: 3px 10px; }
-
-.talk-speaker {
-  font-size: 14px;
-  color: #777; }
-
-.talk-description {
-  position: relative; }
-
-.showmore {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding-right: 20px;
-  background: #fff; }
-
-.hideContent {
-  overflow: hidden;
-  line-height: 1.5em;
-  height: 4.5em; }
-
-.showContent {
-  line-height: 1.5em;
-  height: auto; }
 
 /*# sourceMappingURL=ds.css.map */

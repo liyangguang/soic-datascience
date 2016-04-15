@@ -61,54 +61,9 @@ header .container {
   right: 0;
   width: 210px; }
 
-/* ------------------- main layout --------------------- */
 body {
   background: #f6f8f8; }
 
-.wrap {
-  display: flex;
-  padding: 10px 10px 50px; }
-
-nav, aside {
-  flex: 0 0 200px; }
-
-nav {
-  order: -1; }
-
-.content {
-  flex-grow: 1;
-  margin: 0 20px; }
-
-/* ------------------- nav --------------------- */
-.crumb {
-  color: #AEA79F;
-  font-weight: 300;
-  font-size: 12px;
-  padding: 20px 10px 0;
-  text-transform: capitalize; }
-
-.active, .active > a {
-  color: #990000 !important; }
-
-.navlist li + li {
-  border-top: 1px solid #ddd; }
-
-.navitem a {
-  display: inline-block;
-  padding: 10px 0;
-  text-transform: capitalize;
-  font-weight: 700;
-  color: #605C58;
-  font-size: 16px; }
-
-.subnavitem a {
-  display: block;
-  padding: 10px;
-  font-weight: 300;
-  font-size: 16px;
-  color: #aea79f; }
-
-/* ------------------- sidebar --------------------- */
 .card {
   padding: 10px;
   background: #FFF;
@@ -134,29 +89,7 @@ nav {
   padding: 8px;
   background: #428ba2; }
 
-.profile {
-  width: 180px; }
-
-.title {
-  margin: 5px 5px 10px;
-  font-size: 24px;
-  font-weight: 700; }
-
-.card-link {
-  color: inherit;
-  font-size: 18px;
-  padding-left: 5px; }
-
-.name {
-  display: block;
-  margin: 5px;
-  font-size: 20px; }
-
-.info {
-  display: block;
-  margin: 5px; }
-
-/* ------------------- sidebar --------------------- */
+/* ------------------- footer --------------------- */
 footer {
   border-top: 5px solid #990000;
   background: #fff;
@@ -181,92 +114,4 @@ footer {
   content: '|';
   margin-right: 10px; }
 
-/* ------------------- main --------------------- */
-.content {
-  color: #605C58; }
-
-.content-title {
-  margin: 10px 0 30px;
-  font-size: 32px;
-  font-weight: 700;
-  color: #000;
-  text-transform: capitalize; }
-
-.content-heading {
-  font-size: 22px;
-  font-weight: 700; }
-
-.content-sub {
-  font-size: 18px; }
-
-.content-content {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 1.5em; }
-
-.content-li {
-  margin-left: 2em;
-  font-weight: 500;
-  list-style: initial; }
-
-.content-expand {
-  cursor: pointer;
-  font-size: 18px; }
-
-.student-card {
-  display: inline-block;
-  margin: 20px; }
-
-.table {
-  background: #FFF; }
-
-th {
-  text-align: center;
-  text-transform: capitalize; }
-
-td, th {
-  vertical-align: middle !important; }
-
-.checklist li {
-  margin-left: 20px;
-  list-style: initial;
-  font-weight: 300; }
-
-/* ------------------ talk page -------------- */
-.talk-basic {
-  font-size: 16px;
-  margin: 10px 0 20px; }
-
-.talk-basic * {
-  font-weight: 800; }
-
-.talk-title {
-  margin-top: 5px; }
-
-.talk-button {
-  padding: 3px 10px; }
-
-.talk-speaker {
-  font-size: 14px;
-  color: #777; }
-
-.talk-description {
-  position: relative; }
-
-.showmore {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  padding-right: 20px;
-  background: #fff; }
-
-.hideContent {
-  overflow: hidden;
-  line-height: 1.5em;
-  height: 4.5em; }
-
-.showContent {
-  line-height: 1.5em;
-  height: auto; }
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=soic.css.map */
