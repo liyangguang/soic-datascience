@@ -18,6 +18,25 @@ nav{
 	margin: 0 20px;
 }
 
+.button-sidebar{
+	width: 100%;
+	color: #FFF;
+	font-size: 20px;
+	border: none;
+	margin-bottom: 10px;
+}
+.button-content{
+	color: #FFF;
+	border: none;
+}
+.button-primary{
+	padding: 15px;
+	background: $iu-red;
+}
+.button-secondary{
+	padding: 8px;
+	background: $info-blue;
+}
 /* ------------------- nav --------------------- */
 .crumb{
 	color: #AEA79F;

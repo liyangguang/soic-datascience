@@ -1,4 +1,12 @@
 /* ------------------ talk page -------------- */
+.button-subscribe {
+  color: #FFF;
+  font-size: 24px;
+  margin-left: 20px;
+  border: none;
+  padding: 10px 20px;
+  background: #990000; }
+
 .talk-basic {
   font-size: 16px;
   margin: 10px 0 20px; }

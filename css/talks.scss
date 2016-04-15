@@ -1,5 +1,16 @@
-/* ------------------ talk page -------------- */
+$iu-red: #990000;
+$info-blue: rgb(66, 139, 162);
 
+
+/* ------------------ talk page -------------- */
+.button-subscribe{
+  color: #FFF;
+  font-size: 24px;
+  margin-left: 20px;
+  border: none;
+  padding: 10px 20px;
+  background: $iu-red;
+}
 .talk-basic{
 	font-size: 16px;
 	margin: 10px 0 20px;

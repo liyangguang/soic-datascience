@@ -13,6 +13,25 @@ nav {
   flex-grow: 1;
   margin: 0 20px; }
 
+.button-sidebar {
+  width: 100%;
+  color: #FFF;
+  font-size: 20px;
+  border: none;
+  margin-bottom: 10px; }
+
+.button-content {
+  color: #FFF;
+  border: none; }
+
+.button-primary {
+  padding: 15px;
+  background: #990000; }
+
+.button-secondary {
+  padding: 8px;
+  background: #428ba2; }
+
 /* ------------------- nav --------------------- */
 .crumb {
   color: #AEA79F;
