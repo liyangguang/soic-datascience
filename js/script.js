@@ -2,7 +2,7 @@
   $(document).ready(function() {
 
     // navigation related links
-    $("body").on("click", "a[data-link]", function(event) {
+    $("body").on("click", "a[data-link], button[data-link]", function(event) {
       openPage($(this).attr('data-link'), $(this).html(), $(this).attr('data-nav'));
     });
 
