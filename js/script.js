@@ -29,6 +29,27 @@
       $(this).toggleClass("toggle-button-more").toggleClass("toggle-button-less");
     });
 
+    // show video
+    $('.js-button-video').on('click', function(){
+      $('.js-video-wrap').removeClass('hide');
+    });
+
+    // chromecast video
+    document.addEventListener("DOMContentLoaded", function() {
+      videojs("demo_player", {
+        plugins: {
+          chromecast: {
+            enabled: true,
+            appId: 34523314,
+            metadata: {
+              title: "Jure Leskovec",
+              subtitle: "Subtitle"
+            }
+          }
+        }
+      });
+    });
+
   });
 
   function openPage(linkName, title, superNav){

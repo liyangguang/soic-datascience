@@ -8,6 +8,16 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link href="https://fonts.iu.edu/style.css?family=BentonSans:regular,bold|BentonSansCond:regular|BentonSansComp:bold|SalvoSerifCond:bold" rel="stylesheet" type="text/css">
 
+  <!-- stylesheets -->
+    <link href="//multimedia.datascience.indiana.edu/video-js.css" rel="stylesheet" type="text/css">
+    <link href="//multimedia.datascience.indiana.edu/videojs.chromecast.css" rel="stylesheet" type="text/css">
+
+    <!-- javascripts -->
+    <script src="http://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
+
+    <script src="//multimedia.datascience.indiana.edu/video.dev.js"></script>
+    <script src="//multimedia.datascience.indiana.edu/videojs.chromecast.js"></script>
+
 	<body>
 
 		<div class="iu-bar">
@@ -37,7 +47,7 @@
 					<div class="talk-basic col-xs-2">
 						<span class="talk-time">Mon, Apr 25. <br>12:00 PM</span><br>
 						<a class="talk-location" target="_blank" href="https://www.google.com/maps/place/Woodburn+Hall,+Bloomington,+IN+47406/@39.1680905,-86.5222573,17z/data=!3m1!4b1!4m2!3m1!1s0x886c66c0837a7dd7:0x147532cb28315aaf">Woodburn Hall, 200</a><br>
-						<button class="talk-button">
+						<button class="talk-button js-button-video">
 							<i class="fa fa-play-circle-o"></i>
 							<span>Live Stream</span>
 						</button>
@@ -63,7 +73,7 @@
 					<div class="talk-basic col-xs-2">
 						<span class="talk-time">Mon, Apr 8. <br>1:00 PM</span><br>
 						<a class="talk-location" target="_blank" href="https://www.google.com/maps/place/150+S+Woodlawn+Ave,+Bloomington,+IN+47405/@39.1653408,-86.5257846,17z/data=!3m1!4b1!4m2!3m1!1s0x886c66c1de66055b:0xd0337a05403f2833">Lindley Hall 102</a><br>
-						<button class="talk-button">
+						<button class="talk-button js-button-video">
 							<i class="fa fa-play-circle-o"></i>
 							<span>Video On Demand</span>
 						</button>
@@ -87,7 +97,7 @@
 					<div class="talk-basic col-xs-2">
 						<span class="talk-time">Mon, Mar 21. <br>12:00 PM</span><br>
 						<a class="talk-location" target="_blank" href="https://www.google.com/maps/place/Woodburn+Hall,+Bloomington,+IN+47406/@39.1680905,-86.5222573,17z/data=!3m1!4b1!4m2!3m1!1s0x886c66c0837a7dd7:0x147532cb28315aaf">Woodburn Hall, 200</a><br>
-						<button class="talk-button">
+						<button class="talk-button js-button-video">
 							<i class="fa fa-play-circle-o"></i>
 							<span>Video On Demand</span>
 						</button>
@@ -109,9 +119,13 @@
 				</div>
 		</main>
 		
-		<div class="video-wrap">
-			<video controls="" name="media"><source src="http://info.slis.indiana.edu/~stevecox/media/data-science-series/Jure_Leskovec.mp4" type="video/mp4"></video>
-		</div>
+		<div class="video-wrap js-video-wrap hide">
+			<video id="demo_player" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto" width="640" height="360" data-setup="{}">
+      	<source src="http://982069727.r.cdnsun.net/media/Jure_Leskovec.mp4" type="video/mp4">
+      	<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+    	</video>
+    	<button class="video-close"><i class="fa fa-times" aria-hidden="true"></i></button>
+    </div>
 
 		<footer>
 			<div class="container">
