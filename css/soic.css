@@ -36,6 +36,13 @@ li {
   letter-spacing: 0.2em;
   font-weight: 300; }
 
+.crumb {
+  color: #AEA79F;
+  font-weight: 300;
+  font-size: 12px;
+  padding: 20px 10px 0;
+  text-transform: capitalize; }
+
 header {
   background-color: #428ba2;
   background-image: url(../image/bg.png);

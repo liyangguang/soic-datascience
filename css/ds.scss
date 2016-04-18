@@ -38,13 +38,6 @@ nav{
 	background: $info-blue;
 }
 /* ------------------- nav --------------------- */
-.crumb{
-	color: #AEA79F;
-	font-weight: 300;
-	font-size: 12px;
-	padding: 20px 10px 0;
-	text-transform: capitalize;
-}
 .active, .active>a{
 	color: $iu-red !important;
 }

@@ -24,9 +24,9 @@
     $.ajaxSetup ({ cache: false });
 
     // talks page: expand description
-    $('.js-showmore').on('click', function(event) {
-      $(this).parents(".talk-description").removeClass("hideContent").addClass("showContent");
-      $(this).remove();
+    $('.js-toggle-button').on('click', function(event) {
+      $(this).parents(".talk-description").toggleClass("hideContent").toggleClass("showContent");
+      $(this).toggleClass("toggle-button-more").toggleClass("toggle-button-less");
     });
 
   });
