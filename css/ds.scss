@@ -1,0 +1,138 @@
+$iu-red: #990000;
+$info-blue: rgb(66, 139, 162);
+
+/* ------------------- main layout --------------------- */
+
+.wrap{
+	display: flex;
+	padding: 10px 10px 50px;
+}
+nav, aside{
+	flex: 0 0 200px;
+}
+nav{
+	order: -1;
+}
+.content{
+	flex-grow: 1;
+	margin: 0 20px;
+}
+
+.button-sidebar{
+	width: 100%;
+	color: #FFF;
+	font-size: 20px;
+	border: none;
+	margin-bottom: 10px;
+}
+.button-content{
+	color: #FFF;
+	border: none;
+}
+.button-primary{
+	padding: 15px;
+	background: $iu-red;
+}
+.button-secondary{
+	padding: 8px;
+	background: $info-blue;
+}
+/* ------------------- nav --------------------- */
+.active, .active>a{
+	color: $iu-red !important;
+}
+.navlist li+li{
+	border-top: 1px solid #ddd;
+}
+.navitem a{
+	display: inline-block;
+	padding: 10px 0;
+	text-transform: capitalize;
+	font-weight: 700;
+	color: #605C58;
+	font-size: 16px;
+}
+.subnavitem a{
+	display: block;
+	padding: 10px;
+	font-weight: 300;
+	font-size: 16px;
+	color: #aea79f;
+}
+
+/* ------------------- sidebar --------------------- */
+
+.profile{
+	width: 180px;
+}
+.title{
+	margin: 5px 5px 10px;
+	font-size: 24px;
+	font-weight: 700;
+}
+.card-link{
+	color: inherit;
+	font-size: 18px;
+	padding-left: 5px;
+}
+.name{
+	display: block;
+	margin: 5px;
+	font-size: 20px;
+}
+.info{
+	display: block;
+	margin: 5px;
+}
+
+/* ------------------- main --------------------- */
+.content{
+	color: #605C58;
+}
+.content-title{
+	margin: 10px 0 30px;
+	font-size: 32px;
+	font-weight: 700;
+	color: #000;
+	text-transform: capitalize;
+}
+.content-heading{
+	font-size: 22px;
+	font-weight: 700;
+}
+.content-sub{
+	font-size: 18px;
+}
+.content-content{
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5em;
+}
+.content-li{
+	margin-left: 2em;
+	font-weight: 500;
+	list-style: initial;
+}
+.content-expand{
+	cursor: pointer;
+	font-size: 18px;
+}
+.student-card{
+	display: inline-block;
+	margin: 20px;
+}
+.table{
+	background: #FFF;
+}
+th{
+	text-align: center;
+	text-transform: capitalize;
+}
+td, th{
+	vertical-align: middle !important;
+}
+.checklist li{
+	margin-left: 20px;
+	list-style: initial;
+	font-weight: 300;
+}
