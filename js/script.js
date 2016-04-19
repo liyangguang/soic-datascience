@@ -37,7 +37,7 @@
     // close video
     $('.js-video-close').on('click', function(){
       $('.js-video-wrap').addClass('hide');
-      document.getElementById('talk-video').pause();
+      $('video').get(0).pause();
     });
 
     // chromecast video
