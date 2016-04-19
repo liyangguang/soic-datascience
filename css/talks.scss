@@ -1,0 +1,77 @@
+$iu-red: #990000;
+$info-blue: rgb(66, 139, 162);
+
+
+/* ------------------ talk page -------------- */
+.button-subscribe{
+  color: #FFF;
+  font-size: 24px;
+  margin-left: 20px;
+  border: none;
+  padding: 10px 20px;
+  background: $iu-red;
+}
+.talk-basic{
+	font-size: 16px;
+	margin: 10px 0 20px;
+  line-height: 2em;
+}
+.talk-basic *{
+	font-weight: 800;
+}
+.talk-title{
+	margin-top: 5px;
+}
+.talk-button{
+	padding: 3px 10px;
+}
+.talk-speaker{
+	font-size: 14px;
+	color: #777;
+}
+.talk-description{
+	position: relative;
+}
+.toggle-button{
+	position: absolute;
+	bottom: 0;
+	right: 20px;
+	padding-right: 20px;
+	background: #fff;
+}
+.toggle-button-more:after{
+  content: '... show more';
+}
+.toggle-button-less:after{
+  content: 'show less';
+}
+.hideContent {
+  overflow: hidden;
+  line-height: 1.5em;
+  height: 4.5em;
+}
+.showContent {
+  line-height: 1.5em;
+  height: auto;
+}
+
+.video-wrap{
+  background: rgba(0,0,0,.8);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;       // both vertical and horizontal 
+}
+.video-close{
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  font-size: 40px;
+  border: 0;
+  background: transparent;
+  color: white;
+}
