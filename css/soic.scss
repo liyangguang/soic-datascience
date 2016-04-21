@@ -40,6 +40,19 @@ li{
 	letter-spacing: 0.2em;
 	font-weight: 300;
 }
+
+.soic-nav{
+	box-shadow: 3px -3px 5px #195870;
+    background: #3485A4;
+    padding: 3px;
+}
+.soic-nav-list{
+	margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
 .crumb{
 	color: #AEA79F;
 	font-weight: 300;
