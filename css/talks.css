@@ -36,10 +36,10 @@
   background: #fff; }
 
 .toggle-button-more:after {
-  content: '... show more'; }
+  content: "... show more"; }
 
 .toggle-button-less:after {
-  content: 'show less'; }
+  content: "show less"; }
 
 .hideContent {
   overflow: hidden;
