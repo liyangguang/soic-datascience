@@ -1,3 +1,15 @@
+<?php
+  $title = 'Data Science';
+  include('header.html');
+?>
+
+<main class="container">
+  <p class="crumb js-crumb">
+    <a href="index.php">Data Science</a> > <a href="degrees.php">Graduate Degrees</a> > Hybird M.S.
+  </p>
+  <div class="wrap">
+    <main class="content js-content">
+
 <h1 class="content-title">Hybrid M.S.</h1>
 <img src="image/hybrid.jpg" alt="" class="full-width">
 <h2 class="content-heading">Online + Residential</h2>
@@ -25,3 +37,15 @@
 <p class="content-content">All applicants applying to the Data Science program must submit official GRE scores, and those official scores must be sent directly to Indiana University. Our School code is 1324. GRE scores are good for five years from the date of the exam. If you have an ETS score sheet, you can scan it and send it as an attachment to datasci@indiana.edu. We can consider those scores as unofficial scores until the official scores arrive.</p>
 <h3 id="toefl" class="content-sub">TOEFL or IELTS Scores (for international students)</h3>
 <p class="content-content">The TOEFL and IELTS are measures of English proficiency. International applicants are required to submit official TOEFL or IELTS scores. You will need to have your official TOEFL or IELTS scores sent directly to Indiana University. Our School code is 1324. We expect a minimum of 100 on the TOEFL or a minimum of 7.0 on the IELTS. TOEFL and IELTS scores are good for two years from the date of the exam. If you have an ETS score sheet, scan it and send it as an attachment to datasci@indiana.edu. We can use those scores as unofficial scores until the official scores arrive.</p>
+
+    </main>
+    <?php
+      include('sidebars.html');
+    ?>
+  </div>
+
+</main>
+
+<?php
+  include('footer.html');
+?>

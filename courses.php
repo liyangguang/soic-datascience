@@ -1,3 +1,15 @@
+<?php
+  $title = 'Data Science';
+  include('header.html');
+?>
+
+<main class="container">
+  <p class="crumb js-crumb">
+    <a href="index.php">Data Science</a> > Courses
+  </p>
+  <div class="wrap">
+    <main class="content js-content">
+
 <h1 class="content-title">Courses</h1>
 
 <h2 class="content-heading">List of All Residential Courses</h2>
@@ -75,3 +87,15 @@
 	<li>Z636: Data Semantics (Ding)</li>
 	<li>Z637: Information Visualization (Borner)</li>
 </ul>
+
+    </main>
+    <?php
+      include('sidebars.html');
+    ?>
+  </div>
+
+</main>
+
+<?php
+  include('footer.html');
+?>

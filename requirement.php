@@ -1,3 +1,15 @@
+<?php
+  $title = 'Data Science';
+  include('header.html');
+?>
+
+<main class="container">
+  <p class="crumb js-crumb">
+    <a href="index.php">Data Science</a> > Requirements
+  </p>
+  <div class="wrap">
+    <main class="content js-content">
+
 <h1 class="content-title">M.S. Requirements</h1>
 <h2 class="content-heading">Example Decision-maker Curriculum</h2>
 <b>Year 1 Semester 1: </b>
@@ -52,3 +64,16 @@
 	<li>I520: Security For Networked Systems</li>
 	<li>Z637: Information Visualization</li>
 </ul>
+
+
+    </main>
+    <?php
+      include('sidebars.html');
+    ?>
+  </div>
+
+</main>
+
+<?php
+  include('footer.html');
+?>

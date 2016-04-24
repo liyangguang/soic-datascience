@@ -1,3 +1,15 @@
+<?php
+  $title = 'Data Science';
+  include('header.html');
+?>
+
+<main class="container">
+  <p class="crumb js-crumb">
+    <a href="index.php">Data Science</a> > Frequent Asked Questions
+  </p>
+  <div class="wrap">
+    <main class="content js-content">
+
 <h1 class="content-title">Frequent Asked Questions</h1>
 <h1 class="content-heading content-expand js-content-expand">Is the GRE and/or TOEFL Required?</h1>
 <p class="content-content hide">The GRE is required for the MS in Data Science degree program. Applicants who have completed another graduate degree, and/or have relevant work experience can apply to waive the GRE requirement. To apply for the waiver, please email dsadvise@indiana.edu. Include a copy of your resume/CV and scans of your transcripts for consideration.<br><br>
@@ -84,3 +96,15 @@ For international students please check the IU Office of International Services 
 <p class="content-content hide">The TEPAIC is a Test of English Proficiency for International Associate Instructor Candidates. A passing TEPAIC score is required for all non-native English speakers in order to be considered for an AI position in the event a position becomes available.
 Your Academic Advisor and/or Department must give permission for a student to take the TEPAIC. Once your name has been submitted to the TEPAIC Department, you will receive information on what to do next.
 There will be two English evaluators conducting the TEPAIC. It will be a casual conversation. The English evaluators will be assessing (1) how clearly and fluently you speak; (2) how effective are your interactional communication skills; and (3) how effectively you explain concepts. I know it is hard, but try not to be nervous. Engage in the conversation as you would when talking with friends.</p>
+
+    </main>
+    <?php
+      include('sidebars.html');
+    ?>
+  </div>
+
+</main>
+
+<?php
+  include('footer.html');
+?>

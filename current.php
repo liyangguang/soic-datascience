@@ -1,3 +1,15 @@
+<?php
+  $title = 'Data Science';
+  include('header.html');
+?>
+
+<main class="container">
+  <p class="crumb js-crumb">
+    <a href="index.php">Data Science</a> > Current Students
+  </p>
+  <div class="wrap">
+    <main class="content js-content">
+
 <h1 class="content-title">Information for Current Students</h1>
 <h2 class="content-heading">Course Registration: One.IU Registration Portal</h2>
 <p class="content-content">Students register through the IU’s One.IU registration portal. Registration access should be set up within a few weeks of your admission. Billing is done by email.</p>
@@ -14,3 +26,15 @@
 
 <h2 class="content-heading">Homework - Time Commitment</h2>
 <p class="content-content">We recommend three hours of homework time for every course credit hour. A 3-credit-hour graduate level class will expect about 9 hours of homework each week.</p>
+
+    </main>
+    <?php
+      include('sidebars.html');
+    ?>
+  </div>
+
+</main>
+
+<?php
+  include('footer.html');
+?>

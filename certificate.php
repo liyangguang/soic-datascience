@@ -1,3 +1,15 @@
+<?php
+  $title = 'Data Science';
+  include('header.html');
+?>
+
+<main class="container">
+  <p class="crumb js-crumb">
+    <a href="index.php">Data Science</a> > <a href="degrees.php">Graduate Degrees</a> > Online Certificate
+  </p>
+  <div class="wrap">
+    <main class="content js-content">
+
 <h1 class="content-title">Online Certificate</h1>
 <img src="image/certificate.png" alt="" class="full-width">
 <p class="content-content">If you’re a technology-oriented working professional or a recent college graduate seeking an advantage in a competitive job market, the School of Informatics and Computing’s online certificate in data science could help you take the next step in your career. The affordable, flexible certificate is taught by the Schools's world-leading informatics and computing faculty and covers a wide range of course options in computer science, informatics, and information/library science.</p>
@@ -17,3 +29,15 @@
 <p class="content-content">Upload your résumé/CV as a PDF with your online application. Résumés/CVs can be submitted only once</p>
 <h3 id="recommendation" class="content-sub">Letters of Recommendation</h3>
 <p class="content-content">We require three (3) letters of recommendation. Recommendations should be from academic and/or professional references who can who attest to your abilities, accomplishments, strengths, knowledge, and experience. If you have experience as a teaching assistant, you may want to consider asking your teaching supervisor to write a recommendation on your behalf.</p>
+
+    </main>
+    <?php
+      include('sidebars.html');
+    ?>
+  </div>
+
+</main>
+
+<?php
+  include('footer.html');
+?>

@@ -1,4 +1,5 @@
 <?php
+  $title = 'Data Science';
   include('header.html');
 ?>
 
@@ -31,10 +32,10 @@
       <p class="content-content">Our courses are created and taught by faculty who are international leaders in their fields. The School of Informatics and Computing is leading the way in the next generation of computing, with areas of expertise as diverse as complex systems, health informatics, high performance computing, networks and visualization, and bioinformatics. We have a strong record of students taking our programs being recruited into excellent jobs. As a student in the data science program, you get full access to the resources of our school, including our  data science research faculty, strong links with industry, access to our School’s dynamic career services office and opportunities to progress further in academic or industry careers.</p>
       <br>
       <h2 class="content-heading">Data Science at IU - Education with options</h2>
-      <p class="content-content">School of Informatics and Computing provides four options: Residential M.S., Online M.S., Hybrid M.S., and Online certificate. Click here to explore <a data-link="degrees">degree options</a> and <a data-link="degrees">online certificate option</a>.</p>
+      <p class="content-content">School of Informatics and Computing provides four options: Residential M.S., Online M.S., Hybrid M.S., and Online certificate. Click here to explore <a href="degrees.php">degree options</a> and <a href="degrees.php">online certificate option</a>.</p>
       <br>
       <h2 class="content-heading">Meet your goals with two paths</h2>
-      <p class="content-content">Our data science program provides two distinct paths - a technical path and a decision-maker path - that enable you to customize your program to meet your needs and goals. <a data-link="courses">Know more about paths and the curriculum</a></p>
+      <p class="content-content">Our data science program provides two distinct paths - a technical path and a decision-maker path - that enable you to customize your program to meet your needs and goals. <a href="courses.php">Know more about paths and the curriculum</a></p>
 
     </main>
     <?php

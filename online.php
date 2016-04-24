@@ -1,3 +1,15 @@
+<?php
+  $title = 'Data Science';
+  include('header.html');
+?>
+
+<main class="container">
+  <p class="crumb js-crumb">
+    <a href="index.php">Data Science</a> > <a href="degrees.php">Graduate Degrees</a> > Online M.S.
+  </p>
+  <div class="wrap">
+    <main class="content js-content">
+
 <h1 class="content-title">Online M.S.</h1>
 <img src="image/online.jpg" alt="" class="full-width">
 <h2 class="content-heading">Flexibility and Affordability</h2>
@@ -22,3 +34,15 @@
 <p class="content-content">Upload scanned copies of your transcript(s) and degree certification(s) with your online application or send a scanned copy of your transcript(s) and degree certification(s) as an attachment to datasci@indiana.edu.</p>
 <h3 id="gre" class="content-sub">GRE Scores</h3>
 <p class="content-content">* GRE Waiver requirement people with an existing graduate degree or >5 years experience in industry can request a GRE waiver. Please contact <a href="mailto:datasci@indiana.edu">email here</a> and mention this in your SoP. Our School code is 1324.</p>
+
+    </main>
+    <?php
+      include('sidebars.html');
+    ?>
+  </div>
+
+</main>
+
+<?php
+  include('footer.html');
+?>
