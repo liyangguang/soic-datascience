@@ -15,7 +15,7 @@
 <p class="content-content">If you’re a technology-oriented working professional or a recent college graduate seeking an advantage in a competitive job market, the School of Informatics and Computing’s online certificate in data science could help you take the next step in your career. The affordable, flexible certificate is taught by the Schools's world-leading informatics and computing faculty and covers a wide range of course options in computer science, informatics, and information/library science.</p>
 <h2 class="content-heading">Broad online curriculum</h2>
 <p class="content-content">Our certificate’s convenient online format adjusts to your life, customizable to your schedule. With a broad range of courses available on topics such as cloud computing, health and medicine, high-performance computing, and data analysis, you can tailor your curriculum to your interests. Students must complete twelve credit hours to complete the Certificate. Courses must be selected from the approved Course Offerings list. Any four courses from the list may be taken for the certificate.</p>
-<h2 class="content-heading">How to Apply</h2>
+<h2 id="howto" class="content-heading">How to Apply</h2>
 <h3 class="content-sub">Checklist</h3>
 <ul class="checklist">
 	<li><b>Deadline: July 15</b></li>

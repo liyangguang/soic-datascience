@@ -14,7 +14,7 @@
 <img src="image/hybrid.jpg" alt="" class="full-width">
 <h2 class="content-heading">Online + Residential</h2>
 <p class="content-content">The hybrid option for the M.S. in Data Science will be completed first online for 12 credit hours- then-18 credit hours complete in residence at Indiana University Bloomington, Indiana for two consecutive semesters (9 hours in Fall + 9 hours in Spring.) Students have a maximum of five years to complete the M.S. in Data Science.</p>
-<h2 class="content-heading">How to Apply</h2>
+<h2 id="howto" class="content-heading">How to Apply</h2>
 <h3 class="content-sub">Checklist</h3>
 <ul class="checklist">
 	<li><b>Deadline: March 1</b></li>

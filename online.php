@@ -14,7 +14,7 @@
 <img src="image/online.jpg" alt="" class="full-width">
 <h2 class="content-heading">Flexibility and Affordability</h2>
 <p class="content-content">The online option provides a flexible opportunity for working professionals at a fraction of the cost.</p>
-<h2 class="content-heading">How to Apply</h2>
+<h2 id="howto" class="content-heading">How to Apply</h2>
 <h3 class="content-sub">Checklist</h3>
 <ul class="checklist">
 	<li><b>Deadline: July 15</b></li>

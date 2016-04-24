@@ -14,7 +14,7 @@
 <img src="image/residential.png" alt="" class="full-width">
 <h2 class="content-heading">Accessible</h2>
 <p class="content-content">The residential program provides physical access to the School's world-class faculty, opportunities to participate in cutting-edge research, and immersion in the vibrant Bloomington campus.</p>
-<h2 class="content-heading">How to Apply</h2>
+<h2 id="howto" class="content-heading">How to Apply</h2>
 <h3 class="content-sub">Checklist</h3>
 <ul class="checklist">
 	<li><b>Deadline: March 1</b></li>

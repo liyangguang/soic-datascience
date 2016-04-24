@@ -18,13 +18,6 @@ nav{
 	margin: 0 20px;
 }
 
-.button-sidebar{
-	width: 100%;
-	color: #FFF;
-	font-size: 20px;
-	border: none;
-	margin-bottom: 10px;
-}
 .button-content{
 	color: #FFF;
 	border: none;
@@ -85,6 +78,20 @@ nav{
 	margin: 5px;
 }
 
+.button-sidebar{
+	display: block;
+    text-align: center;
+	width: 100%;
+	color: #FFF;
+	font-size: 20px;
+	border: none;
+	margin-bottom: 10px;
+}
+.button-sidebar:hover,
+.button-sidebar:focus,
+.button-sidebar:visited,{
+	color: #fff;
+}
 /* ------------------- main --------------------- */
 .content{
 	color: #605C58;
