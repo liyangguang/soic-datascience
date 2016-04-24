@@ -13,13 +13,6 @@ nav {
   flex-grow: 1;
   margin: 0 20px; }
 
-.button-sidebar {
-  width: 100%;
-  color: #FFF;
-  font-size: 20px;
-  border: none;
-  margin-bottom: 10px; }
-
 .button-content {
   color: #FFF;
   border: none; }
@@ -76,6 +69,20 @@ nav {
 .info {
   display: block;
   margin: 5px; }
+
+.button-sidebar {
+  display: block;
+  text-align: center;
+  width: 100%;
+  color: #FFF;
+  font-size: 20px;
+  border: none;
+  margin-bottom: 10px; }
+
+.button-sidebar:hover,
+.button-sidebar:focus,
+.button-sidebar:visited {
+  color: #fff; }
 
 /* ------------------- main --------------------- */
 .content {

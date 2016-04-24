@@ -35,7 +35,7 @@
       <p class="content-content">School of Informatics and Computing provides four options: Residential M.S., Online M.S., Hybrid M.S., and Online certificate. Click here to explore <a href="degrees.php">degree options</a> and <a href="degrees.php">online certificate option</a>.</p>
       <br>
       <h2 class="content-heading">Meet your goals with two paths</h2>
-      <p class="content-content">Our data science program provides two distinct paths - a technical path and a decision-maker path - that enable you to customize your program to meet your needs and goals. <a href="courses.php">Know more about paths and the curriculum</a></p>
+      <p class="content-content">Our data science program provides two distinct paths - a technical path and a decision-maker path - that enable you to customize your program to meet your needs and goals. <a href="requirement.php">Know more about paths and the curriculum</a></p>
 
     </main>
     <?php
