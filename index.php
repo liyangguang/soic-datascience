@@ -10,15 +10,13 @@
   <div class="wrap">
     <main class="content js-content">
     
-      <h1 class="content-title">Data Science</h1>
+      <h1 class="content-title">Data Science M.S.</h1>
       <!-- <img class="full-width" src="image/datascience1.jpg"> -->
-      <h2 class="content-heading">Big Data Market Is Increasing </h2>
-      <img src="image/market.jpg" alt="" class="full-width">
-      <p class="content-content">Enormous amounts of data are generated every day in a range of areas—social media, search engines, insurance companies, healthcare organizations, hospitals, defense, retail, and many others. Those trained to analyze, visualize, and report these data will add great value across a range of sectors.</p>
-      <br>
       <h2 class="content-heading">Data Scientists In Demand</h2>
       <img src="image/jobs.jpg" alt="" class="full-width">
       <!-- <img src="image/jobtrend.png" alt="" class="full-width"> -->
+      <p class="subtitle-source">Source: https://www.domo.com/blog/2013/10/the-world-needs-data-scientists/</p>
+
       <p class="content-content">Data science has been called “the sexiest job of the 21st Century.” With a projected shortage of 140,000 to 190,000 people with deep analytical skills, as well as 1.5 million managers and analysts with the know-how to use the analysis of big data to make effective decisions, data science is a rapidly growing, high-paying field.</p>
       <br>
       <h2 class="content-heading">What makes IU's Data Science different?</h2>
@@ -39,8 +37,33 @@
 
     </main>
     <?php
-      include('sidebars.html');
+      include('navigation.html');
     ?>
+    
+        <aside>
+          
+          <a class="button-sidebar button-primary" target="_blank" href="https://sisjee.iu.edu/sisad-prd/p/Guest.do?methodToCall=start&inst=IUBLA&career=GRAD&parm1=DEGR">Apply Now!</a>
+          <a class="button-sidebar button-secondary" href="degrees.php#howto">How to Apply</a>
+          
+          <div class="card">
+            <a class="card-link" href='mailto:datasci@indiana.edu'><i class="fa fa-envelope" aria-hidden="true"></i> Email Us</a>
+          </div>
+          <div class="card">
+            <a class="card-link" href='#'><i class="fa fa-slack"></i> Join Slack</a>
+          </div>
+
+          <div class="card">
+            <h2 class="title"><a class="card-title" href="students.php">Students</a></h2>
+            <img class="profile" src="http://www.soic.indiana.edu/img/spotlights/Girard-Mary_2014-12.jpeg" alt="">
+            <a href class="name">Mary Girard</a>
+            <p class="info">Building Skills for the Future</p>
+
+            <img class="profile" src="http://www.soic.indiana.edu/img/spotlights/sara-bigelow.png" alt="">
+            <a href class="name">Sara Bigelow</a>
+            <p class="info">Big Dreams in a Bright Field</p>
+          </div>
+
+        </aside>
   </div>
 
 </main>

@@ -99,7 +99,7 @@ There will be two English evaluators conducting the TEPAIC. It will be a casual 
 
     </main>
     <?php
-      include('sidebars.html');
+      include('navigation.html');
     ?>
   </div>
 

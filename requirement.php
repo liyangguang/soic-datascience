@@ -68,7 +68,7 @@
 
     </main>
     <?php
-      include('sidebars.html');
+      include('navigation.html');
     ?>
   </div>
 

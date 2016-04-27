@@ -11,6 +11,59 @@
     <main class="content js-content">
 
 <h1 class="content-title">Courses</h1>
+<h2 class="content-heading">Example Decision-maker Curriculum</h2>
+<b>Year 1 Semester 1: </b>
+<ul>
+	<li>I590: Topics in Informatics: Big Data Applications and Analytics</li>
+	<li>I590: Topics in Informatics: Management, Access, and Use of Big and Complex Data</li>
+	<li>STAT S520 Introduction to Statistics</li>
+</ul>
+
+<b>Year 1 Semester 2:</b>
+<ul>
+	<li>B661: Database Theory and System Design</li>
+	<li>Z637: Information Visualization</li>
+	<li>B669: Scientific Data Management and Preservation</li>
+</ul>
+
+<b>Year 1 Summer:</b>
+<ul>
+	<li>Z605: Internship in Library and Information Science</li>
+</ul>
+
+<b>Year 2 Semester 1:</b>
+<ul>
+	<li>Z604: Data Curation</li>
+	<li>I525: Organizational Informatics and Economics of Security</li>
+	<li>I590: Topics in Informatics: Big Data Open Source Software and Projects</li>
+</ul>
+
+<h2 class="content-heading">Example Technical Curriculum</h2>
+<b>Year 1 Semester 1: </b>
+<ul>
+	<li>B503: Analysis of Algorithm;</li>
+	<li>B561: Advanced Database Concepts</li>
+	<li>S520: Introduction to Statistics</li>
+</ul>
+
+<b>Year 1 Semester 2:</b>
+<ul>
+	<li>B649: Cloud Computing</li>
+	<li>Z534: Search</li>
+	<li>B555: Machine Learning</li>
+</ul>
+
+<b>Year 1 Summer:</b>
+<ul>
+	<li>Z605: Internship in Library and Information Science</li>
+</ul>
+
+<b>Year 2 Semester 1:</b>
+<ul>
+	<li>B565: Data Mining</li>
+	<li>I520: Security For Networked Systems</li>
+	<li>Z637: Information Visualization</li>
+</ul>
 
 <h2 class="content-heading">List of All Residential Courses</h2>
 <a class="expand-button">Expand</a>
@@ -86,11 +139,25 @@
 	<li><a href="http://homes.soic.indiana.edu/classes/summer2016/csci/b649-sabry/advertisement.pdf">B649: Topics in Systems: DataFlow SuperComputing</a> (Sabry)</li>
 	<li>Z636: Data Semantics (Ding)</li>
 	<li>Z637: Information Visualization (Borner)</li>
+
+<li><a href="https://www.soic.indiana.edu/graduate/courses/index.html?number=i535&amp;department=INFO"><span>I535:&nbsp;</span>Management, Access, and Use of Big and Complex Data</a> (32871)</li>
+<li><a href="https://www.soic.indiana.edu/graduate/courses/index.html?number=i523&amp;department=INFO">I523:&nbsp;Big Data Applications and Analytics</a> (32866)</li>
+<li><a href="https://www.soic.indiana.edu/graduate/courses/index.html?number=i590&amp;department=INFO"><span>I590:&nbsp;</span>Perspectives in Data Science</a> (34912)</li>
+<li><a href="https://www.soic.indiana.edu/graduate/courses/index.html?number=i526&amp;department=INFO"><span>I526:&nbsp;</span>Applied Machine Learning</a> (34917)</li>
+<li><a href="https://www.soic.indiana.edu/graduate/courses/index.html?number=b649&amp;department=CSCI"><span>B649:&nbsp;</span>High Performance Computing</a> (34918)</li>
+<li><a href="https://www.soic.indiana.edu/graduate/courses/index.html?number=i590&amp;department=INFO"><span>I590:&nbsp;</span>Data Semantics</a> (34920)</li>
+<li style="font-size: 14px;"><a href="http://www.statclasses.indiana.edu/course.phtml?id=61">V506:&nbsp;Statistical Analysis for Effective Decision-Making</a>&nbsp;(34868)</li>
+<li><a href="https://www.soic.indiana.edu/graduate/courses/index.html?number=z604&amp;department=ILS"><span>Z604:&nbsp;</span>Informatics of Big Data</a> (32199)</li>
+<li><a href="https://www.soic.indiana.edu/graduate/courses/index.html?number=z639&amp;department=ILS">Z639: Social Media Mining</a> (35041)</li>
+<li>B649: Topics in Systems: DataFlow SuperComputing (14757)<br>
+ Dr. Amr Sabry</li>
+<li>I590: Topics in Informatics: Real World Data Science (15080)<br>
+ Dr. David Wild</li>
 </ul>
 
     </main>
     <?php
-      include('sidebars.html');
+      include('navigation.html');
     ?>
   </div>
 

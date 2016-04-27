@@ -29,8 +29,24 @@
 
     </main>
     <?php
-      include('sidebars.html');
+      include('navigation.html');
     ?>
+
+        <aside>
+          
+          <div class="card">
+            <a class="card-link" href='#'><i class="fa fa-slack"></i> Join Slack</a>
+          </div>
+          <div class="card">
+            <a class="card-link" href='http://www.soic.indiana.edu/graduate/degrees/data-science/data-science-spring-2016-orientation.html'>Fall 2016 Orientation</a>
+          </div>
+
+          <div class="card">
+            <a class="card-link" href="talks.php">Invited Talks</a>
+          </div>
+
+
+        </aside>
   </div>
 
 </main>

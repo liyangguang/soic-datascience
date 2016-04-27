@@ -14,17 +14,7 @@
 <p class="content-content">
 	To chat with current students and alumni <button class="button-content button-secondary">Join our <i class="fa fa-slack"></i>Slack!</button>
 </p>
-<div class="student-card">
-  <img class="profile" src="image/people/alumni1.jpg" alt="">
-  <a href class="name">Thomas Hauger</a>
-  <p class="info">Data Scientist at Amazon</p>
-</div>
 
-<div class="student-card">
-  <img class="profile" src="image/people/alumni2.jpg" alt="">
-  <a href class="name">Kristin Day</a>
-  <p class="info">Data Analysist at HP</p>
-</div>
 
 <div class="student-card">
   <img class="profile" src="http://www.soic.indiana.edu/img/spotlights/Girard-Mary_2014-12.jpeg" alt="">
@@ -40,7 +30,7 @@
 
     </main>
     <?php
-      include('sidebars.html');
+      include('navigation.html');
     ?>
   </div>
 
