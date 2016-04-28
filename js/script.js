@@ -63,7 +63,7 @@
   function breadcrumb(){
     var url = window.location.href;
     var pageName = url.slice(url.lastIndexOf('/') + 1);
-    pageName = pageName == '' ? 'index' : pageName;
+    pageName = (!!pageName == false) ? 'index.php' : pageName;
     $('.navlist a[href="'+pageName+'"]').parent("li").addClass('active');
   }
   // function openPage(linkName, title, superNav){
