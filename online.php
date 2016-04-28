@@ -44,7 +44,7 @@ For international students please check the IU Office of International Services 
 We do not accept WES or another other third-part evaluation service as official transcripts. If an applicant submits a WES evaluation, we will view those documents as unofficial scans, and the applicant will be required to provide official transcripts should they enroll in the Data Science program.</p>
 
 <h3 id="gre" class="content-sub">GRE Scores</h3>
-<p class="content-content">* The GRE is required for the MS in Data Science degree programs. Applicants who have completed another graduate degree, and/or have relevant work experience can apply to waive the GRE requirement. To apply for the waiver, please email dsadvise@indiana.edu. Include a copy of your resume/CV and scans of your transcripts for consideration. Our School code is 1324.</p>
+<p class="content-content">* The GRE is required for all MS in Data Science degree programs, however applicants who have completed another graduate degree and/or have relevant work experience can apply to waive this requirement. To apply for the waiver, please submit the <a href="https://docs.google.com/forms/d/16pOdkqnzHefAoPVIjz_-KlZbtLlytM5ze0W_KxkD6FM/formResponse">Data Science GRE Waiver Request Form</a> with your resume/CV and transcript(s) to the Data Science Graduate Office via email at <a href="mailto:datasci@indiana.edu">datasci@indiana.edu</a>. You will receive an email from our program in 2-3 business days in regards to your request.. Our School code is 1324.</p>
 
     </main>
     <?php

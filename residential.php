@@ -17,7 +17,7 @@
 <h2 id="howto" class="content-heading">How to Apply</h2>
 <h3 class="content-sub">Checklist</h3>
 <ul class="checklist">
-	<li><b>Deadline: March 1</b></li>
+	<li><b>Deadline: Feb 1</b></li>
 	<li><a href="#sop">Statement of Purpose</a></li>
 	<li><a href="#resume">Resume</a></li>
 	<li><a href="#recommendation">Letter of Recommendation</a></li>

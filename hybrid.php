@@ -24,9 +24,10 @@
 	<li><a href="#transcript">Transcript</a></li>
 	<li><a href="#gre">GRE</a></li>
 	<li><a href="#toefl">TOEFL or IELTS (for internationals)</a></li>
+  <li><a href="#additional">Additional Information</a></li>
 </ul>
 <h3 id="sop" class="content-sub">Statement of Purpose</h3>
-<p class="content-content">Upload your Statement of Purpose as a PDF with your online application. Please be sure to note at the top of your statement: M.S. in Data Science - Personal Statement. Your statement can be submitted only once. Your statement should be a minimum of 500 word and clearly explain your background in a relevant undergraduate or graduate major and the reasons you wish to pursue the degree. Please be concise, authentic, and sincere - your statement will be evaluated by the Data Science Program Curriculum Committee for anticipated success, as well as preparation and fit. Please indicate if you seek to begin the program as an online or as a residential student, and if you plan to explore the hybrid (part online/part residential) option in the future.</p>
+<p class="content-content">Upload your Statement of Purpose as a PDF with your online application. Please be sure to note at the top of your statement: M.S. in Data Science - Personal Statement. Be aware your statement can be submitted only once during the application process. This statement should be a minimum of 500 word and clearly explain your background in a relevant undergraduate or graduate major and the reasons you wish to pursue the degree. Please be concise, authentic, and sincere - your statement will be evaluated by the Data Science Program Curriculum Committee for anticipated success, as well as preparation and fit. Within your personal statement, you will also need to indicate you intention to complete the program using the Hybrid option and the anticipated starting semester for the residential portion.</p>
 <h3 id="resume" class="content-sub">Resume</h3>
 <p class="content-content">Upload your résumé/CV as a PDF with your online application. Résumés/CVs can be submitted only once</p>
 <h3 id="recommendation" class="content-sub">Letters of Recommendation</h3>
@@ -52,6 +53,8 @@ For the Data Science program, we take a very holistic approach to reviewing appl
 <p class="content-content">The TOEFL and IELTS are measures of English proficiency. International applicants are required to submit official TOEFL or IELTS scores. You will need to have your official TOEFL or IELTS scores sent directly to Indiana University. Our School code is 1324. We expect a minimum of 100 on the TOEFL or a minimum of 7.0 on the IELTS. TOEFL and IELTS scores are good for two years from the date of the exam. If you have an ETS score sheet, scan it and send it as an attachment to datasci@indiana.edu. We can use those scores as unofficial scores until the official scores arrive.
 <br><br>
 While we do look for a minimum TOEFL score of 100, a lesser score will not automatically disqualify you from admission. Each aspect of your profile will be evaluated by the Admissions Committee before a final decision is rendered.</p>
+<h3 id="addition" class="content-sub">Additional Information</h3>
+<p class="content-content">In order to successfully transition from the Online portion of the program to the Residential portion, you will need to place a formal request by March 1st of the year in which you want to begin the residential portion. You must have completed or be currently completing the 12 credit hour required portion online. This request should be addressed to the Data Science Graduate Office at datasci@indiana.edu. Once this request has been approved, the Data Science Graduate Office will then prepare an updated admissions letter from the School of Informatics and Computing. Note for International Students: A copy of your updated admissions letter will be forwarded to the Indiana University Office of International Services for additional verification. Their office will then advise on financial and other documentation needed for visa processing, along with information on International Orientation for new students to IUB campus.</p>
 
     </main>
     <?php

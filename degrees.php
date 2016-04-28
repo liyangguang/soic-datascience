@@ -30,7 +30,7 @@
 			<td>30 on campus</td>
 			<td>~$40,927.98 (Out-of-State/International)<br>~$14,374.98 (In-State) *</td>
 			<td>GRE, TOEFL/IELTS (intl.)</td>
-			<td>March 1</td><!-- 
+			<td>Feb 1</td><!-- 
 			<td>OPT & CPT</td> --></tr>
 		<tr>
 			<td><a class="degree-name" href="online.php">Online M.S.</a></td>

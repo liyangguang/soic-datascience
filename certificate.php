@@ -28,7 +28,7 @@
 <h3 id="resume" class="content-sub">Resume</h3>
 <p class="content-content">Upload your résumé/CV as a PDF with your online application. Résumés/CVs can be submitted only once</p>
 <h3 id="recommendation" class="content-sub">Letters of Recommendation</h3>
-<p class="content-content">We require three (3) letters of recommendation. Recommendations should be from academic and/or professional references who can who attest to your abilities, accomplishments, strengths, knowledge, and experience. If you have experience as a teaching assistant, you may want to consider asking your teaching supervisor to write a recommendation on your behalf.</p>
+<p class="content-content">We require three (3) letters of recommendation. Recommendations should be from academic and/or professional references who can who attest to your abilities, accomplishments, strengths, knowledge, and experience. If you have experience as a teaching assistant, you may want to consider asking your teaching supervisor to write a recommendation on your behalf. Please note that if you have been working in a related career for at least two years, or if your academic work is in a tech-related field, one letter of recommendation will suffice.</p>
 
     </main>
     <?php
