@@ -19,49 +19,45 @@
 	<table class="table table-striped">
 		<tr>
 			<th></th>
-			<th>credit</th>
+			<th>credit ***</th>
 			<th>cost</th>
 			<th>exams required</th>
-			<th>application materials</th>
 			<th>application deadline</th>
 			<!-- <th>working authorization for intl.</th>
 			 --></tr>
 		<tr>
 			<td><a class="degree-name" href="residential.php">Residential M.S.</a></td>
 			<td>30 on campus</td>
-			<td>$1236/credit (in-state)<br>$395/credit (out-of-state) *</td>
+			<td>~$40,927.98 (Out-of-State/International)<br>~$14,374.98 (In-State) *</td>
 			<td>GRE, TOEFL/IELTS (intl.)</td>
-			<td>SoP, Resume, LoR</td>
 			<td>March 1</td><!-- 
 			<td>OPT & CPT</td> --></tr>
 		<tr>
 			<td><a class="degree-name" href="online.php">Online M.S.</a></td>
 			<td>30 online</td>
-			<td>$395/credit *</td>
+			<td>~$12,500.00 *</td>
 			<td>GRE (Optional **)</td>
-			<td>SoP, Resume, LoR</td>
 			<td>July 15</td><!-- 
 			<td>No</td> --></tr>
 		<tr>
 			<td><a class="degree-name" href="hybrid.php">Hybrid M.S.</a></td>
 			<td>12 online, then 18 on campus</td>
-			<td>$395/credit for first 12,<br>$1236/credit for the rest 18 *</td>
+			<td>~$5,243.40 (Online)<br>~$24,557.66 (Residential) *</td>
 			<td>GRE, TOEFL/IELTS (intl.)</td>
-			<td>SoP, Resume, LoR</td>
 			<td>July 15</td><!-- 
 			<td>OPT</td> --></tr>
 		<tr>
 			<td><a class="degree-name" href="certificate.php">Certificate</a></td>
 			<td>12 online</td>
-			<td>$395/credit *</td>
+			<td>~$5,243.40 *</td>
 			<td>No</td>
-			<td>SoP, Resume, LoR</td>
 			<td>July 15</td><!-- <td>No</td> --></tr>
 	</table>
 </div>
 <p class="content-content"><b>Note</b></p>
 <p class="content-content">* Valid for Fall 2016.</p>
 <p class="content-content">** The GRE is required for the MS in Data Science degree programs. Applicants who have completed another graduate degree, and/or have relevant work experience can apply to waive the GRE requirement. To apply for the waiver, please email dsadvise@indiana.edu. Include a copy of your resume/CV and scans of your transcripts for consideration. Our School code is 1324.</p>
+<p class="content-content">*** Credit and complete time: each course is 3 credit. So for a 30 credit degree, there are 10 courses. Normally it could be 3 per semesters with 1 semester as an internship so the complete time ~1.5 years </p>
 <p class="content-content">For international students: All residential part requires valid Visa. Residential M.S. can apply CPT and OPT. Hybrid M.S. can apply OPT.</p>
 <h2 id="howto" class="content-heading">How to Apply</h2>
 <ul>

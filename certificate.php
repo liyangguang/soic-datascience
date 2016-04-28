@@ -34,7 +34,7 @@
     <?php
       include('navigation.html');
     ?>
-    <aside>
+        <aside>
           
           <a class="button-sidebar button-primary" target="_blank" href="https://sisjee.iu.edu/sisad-prd/p/Guest.do?methodToCall=start&inst=IUBLA&career=GRAD&parm1=DEGR">Apply Now!</a>
           <a class="button-sidebar button-secondary" href="degrees.php#howto">How to Apply</a>
