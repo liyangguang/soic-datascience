@@ -83,6 +83,7 @@ body {
   background: #f6f8f8; }
 
 .card {
+  position: relative;
   padding: 10px;
   background: #FFF;
   margin-bottom: 10px;

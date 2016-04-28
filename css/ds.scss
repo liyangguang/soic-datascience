@@ -143,3 +143,25 @@ td, th{
 	list-style: initial;
 	font-weight: 300;
 }
+
+*:hover+.tooltip{
+	opacity: 1;
+}
+.tooltip{
+	    background: #333;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.tooltip::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent #333 transparent;
+}
